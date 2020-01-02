@@ -63,7 +63,7 @@ def mic_request():
     # 实例化 授权类
     mm = Ms()
     # res = mm.opener_ms(login_url,
-    #                    login_data % ('ibm.esb@yfsafety.com', 'Yfss@api2019', 'https://myyfai.sharepoint.com'))
+    #                    login_data % ('******@******.com', '********', 'https://myyfai.sharepoint.com'))
     # 获取 token
     res = mm.opener_ms(login_url,
                        login_data % (user_name, user_pass, head_url))
